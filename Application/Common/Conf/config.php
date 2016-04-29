@@ -14,8 +14,12 @@ return array(
 	'DB_CHARSET'=> 'utf8', // 字符集
 
 /*********** Pinnacle  Redis ****************/
-	'REDIS_HOST' => '10.0.109.33', // redis server IP
-	'REDIS_PORT' => '8181', //  Port
+	//'REDIS_HOST' => '10.0.109.33', // redis server IP
+	//'REDIS_PORT' => '8181', //  Port
+
+/*********** localhost  Redis ****************/
+	'REDIS_HOST' => '127.0.0.1', // redis server IP
+	'REDIS_PORT' => '6379', //  Port
 
 /*********** localhost ****************/
 	// 'DB_TYPE' => 'mysql', // 数据库类型
